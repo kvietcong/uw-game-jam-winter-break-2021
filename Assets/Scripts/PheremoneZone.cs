@@ -45,18 +45,10 @@ public class PheremoneZone : MonoBehaviour
         if (other.gameObject.tag == "AntSearching")
         {
             searchIntensity += 0.015f;
-            if (searchIntensity > 1)
-            {
-                searchIntensity = 1;
-            }
         }
         else if (other.gameObject.tag == "AntReturning")
         {
             returnIntensity += 0.015f;
-            if (returnIntensity > 1)
-            {
-                returnIntensity = 1;
-            }
         }
     }
 

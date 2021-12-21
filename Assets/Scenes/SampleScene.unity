@@ -731,7 +731,7 @@ MonoBehaviour:
   Ant: {fileID: 2153076232831354779, guid: 4519f1f825d83ed4a91796ba196933fa, type: 3}
   Food: {fileID: 1535930038289041623, guid: c04014f7b263cd74eb2af26799b88024, type: 3}
   scale: 1
-  AntCount: 30
+  AntCount: 50
 --- !u!4 &1522399869
 Transform:
   m_ObjectHideFlags: 0
@@ -800,10 +800,6 @@ PrefabInstance:
     - target: {fileID: 5040887105157330699, guid: 2d4dcdce9701e1d4ea2fc2876fe129ad, type: 3}
       propertyPath: m_Name
       value: PheromoneZone
-      objectReference: {fileID: 0}
-    - target: {fileID: 5040887105157330699, guid: 2d4dcdce9701e1d4ea2fc2876fe129ad, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d4dcdce9701e1d4ea2fc2876fe129ad, type: 3}
