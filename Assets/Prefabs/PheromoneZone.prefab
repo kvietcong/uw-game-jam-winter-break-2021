@@ -110,11 +110,11 @@ GameObject:
   - component: {fileID: 2339751351334787611}
   m_Layer: 0
   m_Name: PheromoneZone
-  m_TagString: Untagged
+  m_TagString: Pheromone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3608679574224668150
 Transform:
   m_ObjectHideFlags: 0

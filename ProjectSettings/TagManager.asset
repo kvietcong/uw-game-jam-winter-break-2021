@@ -9,6 +9,7 @@ TagManager:
   - Food
   - Pheromone
   - Home
+  - Obstacles
   layers:
   - Default
   - TransparentFX

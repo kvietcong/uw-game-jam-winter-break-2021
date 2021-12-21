@@ -75,6 +75,7 @@ public class AntController : MonoBehaviour
             if (Vector3.Distance(position, Vector3.zero) < 5)
             {
                 foundFood = false;
+                foundHome = false;
                 gameObject.tag = "AntSearching";
             }
         }
@@ -105,7 +106,7 @@ public class AntController : MonoBehaviour
 
     void HomeFoundBroadcast(Vector3 pos)
     {
-        if (!foundHome)
+        if (gameObject.tag == "AntReturning" && !foundHome)
         {
             homePos = new Vector3(pos.x, 0, pos.z);
             foundHome = true;
